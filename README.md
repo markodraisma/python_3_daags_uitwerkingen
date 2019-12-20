@@ -1,1 +1,1 @@
-# python_3_daags_uitwerkingen
+# Uitwerkingen van de drie daagse cursus Python
