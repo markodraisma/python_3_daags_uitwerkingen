@@ -1,0 +1,12 @@
+a = "".join([chr(x) for x in range(ord('a'), ord('z')+1)])
+print(a)
+print(a[2:4], "3e en 4e letter")
+print(a[2:10], "3e t/m 10e letter")
+print(a[2:10:2], "3e t/m 10e letter, om de 2 letters")
+print(a[10:2:-1], "11 t/m 4e letter, omgekeerde volgorde")
+a = "hallo jij daar"
+print(a)
+print(a[-1], "laatste letter")
+print(a[3:7], "4e t/m 7e letter")
+print(a[::2], "om de 2 letters")
+print(a[::-1], "omgekeerd")
